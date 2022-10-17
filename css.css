@@ -10,21 +10,25 @@
     background-color: #214b2f;
     display: flex;
   }
+  
 body{
   background-color: #51e685;
 }
+main{
+  height: 90vh;
+}
+#main-nav a{ 
 
-#main-nav a{
-  
   color: white;
   display:block;
-  height: 64px;
+  height: 10vh;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration:none;
   transition: background 0.1s;
+  
   }
   li a:hover:not(.active) {
     background-color: #111;
@@ -53,8 +57,88 @@ p{
   margin-top: 10px;
   
 }
-#img1{
+#voetbal{
   height: 300px;
   width: 700px;
   margin-left: 750px;
+  margin-top:50px;
 }
+
+
+#rooster{
+  height: 500px;
+  width: 900px;
+}
+
+#afwezigheid{
+  height: 500px;
+  width: 900px;
+  margin-left: 550px;
+  margin-top: 300px;
+  
+}
+.p1{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 1000px;
+ margin-top:-300px;
+}
+
+.p2{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -200px;
+}
+
+#canvas{
+height: 700px;
+width: 1400px;
+  margin-top: 150px;
+}
+
+#canvaslogo{
+  margin-top: 400px;
+  margin-left: 350px;
+  width: 50%;
+}
+#p3{
+  color: red;
+  font-size: 150px;
+  margin-top: -880px;
+  margin-left: 650px;
+}
+
+#kalender{
+  height: 700px;
+  width: 1400px;
+  margin-top: 20px;
+}
+
+#p4{
+  font-size: 80px;
+  font-weight: bolder;
+  margin-top: 800px;
+  margin-left: 490px;
+  text-decoration: underline;
+}
+
+#office{
+  margin-top:50px;
+}
+
+#vs{
+  margin-left: 50px;
+  margin-bottom:50px ;
+}
+
+#teams{
+  height: 350px;
+  margin-left: 50px;
+}
+
+#github{
+  margin-top: 300px;
+}
+
