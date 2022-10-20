@@ -14,6 +14,12 @@
 body{
   background-color: #51e685;
 }
+
+header{
+position: sticky;
+top: 0px;
+}
+
 main{
   height: 90vh;
 }
@@ -27,12 +33,13 @@ main{
   align-items: center;
   justify-content: center;
   text-decoration:none;
-  transition: background 0.1s;
-  
+  transition: background 0.1s;  
+
   }
   li a:hover:not(.active) {
     background-color: #111;
   }
+  
   .active {
     background-color:rgb(220, 86, 86);
   }
@@ -142,3 +149,56 @@ width: 1400px;
   margin-top: 300px;
 }
 
+#p8{
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+}
+
+#p9{
+  text-align: center;
+}
+
+#jan{
+  margin-top: 50px;
+}
+
+#p10{
+font-size: 70px;
+font-weight: bold;
+color: white;
+text-align: center;
+text-decoration:underline;
+}
+
+#p11{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+#druten{
+  margin-left: 900px;
+  margin-top:-300px;
+}
+
+#p13{
+  margin-left: 900px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+#p14{
+  margin-left: 900px;
+}
+
+#langeweg{
+  margin-top: -100px;
+}
+
+#p15{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
