@@ -13,7 +13,8 @@
   }
   
 body{
-  background-color: #51e685;
+  background: rgb(0,255,20);
+  background: linear-gradient(90deg, rgba(0,255,20,1) 0%, rgba(58,121,9,1) 35%, rgba(0,255,230,1) 100%);
 }
 
 header{
@@ -60,6 +61,26 @@ div li{
   float: right;
 }
 
+h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
 p{
   font-size: 25px;
   margin-top: 20px;
@@ -76,10 +97,23 @@ margin-top:50px ;
   margin-top:50px;
 }
 
+#tcr{
+  margin-left: 200px;
+  margin-top: 50px;
+
+}
+
+#p21{
+  font-size: 200px;
+  margin-left: 500px;
+  color:rgb(17, 0, 255) ;
+}
 
 #rooster{
   height: 500px;
   width: 900px;
+  margin-top: 100px;
+  
 }
 
 #afwezigheid{
@@ -90,18 +124,45 @@ margin-top:50px ;
   
 }
 .p1{
-  color: black;
+  color: rgb(0, 8, 255);
   font-size: 50px;
   font-weight: bold;
   margin-left: 1000px;
  margin-top:-300px;
+
+ text-shadow: 0 1px 0 rgb(0, 0, 0),
+              0 2px 0 #000000,
+              0 3px 0 rgb(0, 0, 0),
+              0 4px 0 #000000,
+              0 5px 0 rgb(0, 0, 0),
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+
 }
 
 .p2{
-  color: black;
+  color: rgb(0, 17, 255);
   font-size: 50px;
   font-weight: bold;
   margin-top: -200px;
+
+  text-shadow: 0 1px 0 rgb(0, 0, 0),
+  0 2px 0 #000000,
+  0 3px 0 rgb(0, 0, 0),
+  0 4px 0 #000000,
+  0 5px 0 rgb(0, 0, 0),
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 
 #canvas{
@@ -116,7 +177,7 @@ width: 1400px;
   width: 50%;
 }
 #p3{
-  color: red;
+  color: rgb(255, 0, 0);
   font-size: 150px;
   margin-top: -880px;
   margin-left: 650px;
@@ -134,30 +195,147 @@ width: 1400px;
   margin-top: 800px;
   margin-left: 490px;
   text-decoration: underline;
+  color: red;
+  
+  text-shadow: 0 1px 0 rgb(0, 0, 0),
+              0 2px 0 #000000,
+              0 3px 0 rgb(0, 0, 0),
+              0 4px 0 #000000,
+              0 5px 0 rgb(0, 0, 0),
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
 }
 
 #office{
-  margin-top:50px;
+  margin-top:80px;
+  z-index: 1px;
+}
+
+#p22{
+  margin-top: -420px;
+  font-size: 50px;
+  font-weight: bold;
+  color: orange;
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #vs{
-  margin-left: 50px;
-  margin-bottom:50px ;
+  margin-left: 900px;
+  margin-top:100px ;
+  z-index: 1px;
+}
+
+#p23{
+  margin-left: 900px; 
+  margin-top: -330px;
+  font-size: 50px;
+  font-weight: bold;
+  color: lightseagreen;
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #teams{
   height: 350px;
-  margin-left: 50px;
+  margin-left: 40px;
+  margin-top: 400px;
+ z-index: 1px;
+}
+
+#p24{
+  margin-left: 35px;
+  margin-top: -420px;
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #github{
-  margin-top: 300px;
+  margin-top: 100px;
+  margin-left: 900px;
+  z-index: 1px;
+}
+
+#p25{
+  margin-left: 900px;
+  margin-top:-290px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #p8{
 font-size: 40px;
 font-weight: bold;
 text-align: center;
+color: #ffffff;
+
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #p9{
