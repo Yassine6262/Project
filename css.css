@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background-color: #214b2f;
+    background-color: #33563f;
     display: flex;
   }
   
@@ -43,7 +43,7 @@ main{
   }
   
   .active {
-    background-color:rgb(220, 86, 86);
+    background-color:rgb(169, 194, 42);
   }
 nav li {
  float: left;
@@ -486,4 +486,16 @@ text-shadow: 0 1px 0 #ccc,
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 
+}
+
+#p26{
+  color: blue;
+  text-decoration: underline;
+}
+
+#p27{
+   margin-left: 420px;
+   margin-top: -150px;
+   color: blue;
+   font-weight: bold;
 }
